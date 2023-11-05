@@ -26,6 +26,7 @@
       - url: /local/sky-tonight-native-card/sky-tonight-native-card.js
         type: module
   ```
+The url path may need to be adjusted to reflect the location of your configuration direction, as seen from the running system.  For example on some HAAS systems it will appear to be ``/root/config/www/sky-tonight-native-card/sky-tonight-native-card.js''  (i.e /root/config instead).
 4. Alternately, go to `Settings` -> `Dashboards`. Then in the top right corner, click the 3 dots icon and click `Resources`. Click the `+ Add Resource` button in the bottom right corner. Add `/local/sky-tonight-native-card/sky-tonight-native-card.js` as the `URL` and choose `JavaScript Module` as the `Resource Type`. Click `Create`.
 5. Finally, refresh your browser window.
 
